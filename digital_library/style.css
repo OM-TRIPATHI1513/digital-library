@@ -1,0 +1,193 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+#header{
+    background-color: grey;
+    border-bottom: 1px solid white;
+}
+#logo {
+    width: 5.8%;
+    height: 10%;
+    filter: invert(100%);
+}
+#logo1{
+    display: none;
+}
+
+#header h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(19, 34, 144);
+    width: 100%;
+    height: 12.5%;
+    left: 6%;
+    top: 1%;
+
+}
+
+#navbar {
+    top: 3%;
+    right: 1%;
+    display: inline-block;
+    position: absolute;
+}
+
+#navbar ul {
+
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 125%;
+    display: inline;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    background-color: violet;
+
+}
+
+#navbar ul li:hover {
+    background-color: rgb(146, 129, 190);
+    color: red;
+}
+#navbar ul li a:hover{
+    color: red;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* #header::before {
+    content: " ";
+    position: absolute;
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    height: 12.5%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+} */
+.color{
+    color: blueviolet;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#section{
+    background-image: url("https://th.bing.com/th?q=A4+Size+Wallpaper&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+
+}
+
+.pdf {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pdf a {
+    text-decoration: none;
+    max-width: 20%;
+}
+
+.pdf:hover{
+     border:green 5px solid;
+     background-color: aqua;
+}
+
+ 
+    
+#home::before {
+   content: " ";
+    position: absolute;
+    background-image: url("pexels-photo-1329571.webp");
+    bottom: 0%;
+    left: 0%;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+} 
+#about h1 {
+    font-size: 300%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(224, 225, 202);
+}
+
+#about p {
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(224, 225, 202);
+}
+
+#about #back{
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    opacity: 0.4;
+    position: absolute;
+}
+.call{
+    text-decoration: none;
+    color: rgb(226, 84, 84);
+}
+
+#footer {
+    background-color: coral;
+    bottom: 0px;
+}
+
+footer h4 {
+    animation: mymove 20s infinite;
+}
+
+#footer h4 {
+    font-size: 40px;
+    margin-bottom: 0%;
+    left: 0%;
+    opacity: 0.6;
+    position: relative;
+    font-family: sans-serif;
+    height: 15%;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
